@@ -1,0 +1,27 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Az oldal teljes magassága */
+  background-color: #f8f9fa; /* Világos háttérszín */
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  color: #6c757d;
+}
+
+footer {
+    position: fixed;
+
+    bottom: 0;
+    width: 100%;
+}
